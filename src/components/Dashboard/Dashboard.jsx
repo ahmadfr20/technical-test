@@ -23,7 +23,7 @@ const Dashboard = () => {
 
   const handleLogout = () => {
     localStorage.removeItem("transaction");
-    navigate("/login");
+    navigate("/technical-test/login");
   };
 
   const exportToCSV = () => {

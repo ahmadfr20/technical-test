@@ -14,12 +14,12 @@ function App() {
     <div class="w-screen h-screen font-blueberrymd bg-white">
       <Navbar />
       <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route path="/" element={<Homepage />} />
-        <Route path="/me" element={<AboutMe />} />
+        <Route path="/technical-test/login" element={<Login />} />
+        <Route path="/technical-test/" element={<Homepage />} />
+        <Route path="/technical-test/me" element={<AboutMe />} />
 
         <Route element={<ProtectedRoute />}>
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/technical-test/dashboard" element={<Dashboard />} />
         </Route>
       </Routes>
 

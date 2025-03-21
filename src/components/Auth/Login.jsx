@@ -15,7 +15,7 @@ const Login = () => {
     
     try {
       await loginUser(username, password);
-      window.location.href = "/dashboard"; // Reload halaman setelah navigasi
+      window.location.href = "/technical-test/dashboard"; // Reload halaman setelah navigasi
     } catch (err) {
       setError("Invalid username or password.");
     }
@@ -56,10 +56,6 @@ const Login = () => {
             Login
           </button>
         </form>
-        <div className="text-center mt-4 text-sm text-gray-600">
-          <a href="#" className="hover:underline">Forgot password?</a> |  
-          <a href="#" className="hover:underline ml-1">Sign up</a>
-        </div>
       </div>
     </div>
   );

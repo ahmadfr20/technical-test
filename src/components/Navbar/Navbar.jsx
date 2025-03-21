@@ -16,16 +16,16 @@ export const Navbar = () => {
     if (isLoggedIn) {
       localStorage.removeItem("transaction");
       setIsLoggedIn(false);
-      navigate("/login");
+      navigate("/technical-test/login");
     } else {
-      navigate("/login");
+      navigate("/technical-test/login");
     }
   };
 
   return (
     <div className="container fixed max-w-full backdrop-blur-md bg-white z-10 px-4 py-5 bg-opacity-80 mx-auto shadow-sm">
       <div className="xl:mx-28 lg:mx-20 md:mx-auto flex justify-between">
-        <a href="/" aria-label="PT X" title="PT X" className="inline-flex items-center">
+        <a href="/technical-test/" aria-label="PT X" title="PT X" className="inline-flex items-center">
           <img src={logo} className="mr-3 h-8 rounded-full" alt="Logo" />
           <span className="ml-2 text-2xl font-blueberry tracking-wide text-gray-800">PT X</span>
         </a>
@@ -57,7 +57,7 @@ export const Navbar = () => {
               <div className="p-5 bg-white border rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
                   <div>
-                    <a href="/" aria-label="Company" title="Company" className="inline-flex items-center">
+                    <a href="/technical-test/" aria-label="Company" title="Company" className="inline-flex items-center">
                       <img src={logo} className="mr-3 h-8 rounded-full" alt="Logo" />
                       <span className="ml-2 text-xl font-blueberry tracking-wide text-gray-800">PT X</span>
                     </a>

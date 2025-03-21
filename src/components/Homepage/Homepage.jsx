@@ -14,9 +14,9 @@ const Homepage = () => {
   
     const handleAuthAction = () => {
       if (isLoggedIn) {
-        navigate("/dashboard");
+        navigate("/technical-test/dashboard");
       } else {
-        navigate("/login");
+        navigate("/technical-test/login");
       }
     };
 
@@ -47,12 +47,12 @@ const Homepage = () => {
       {/* Footer */}
       <footer className="bg-gray-100 py-3">
         <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between px-6 lg:px-20">
-          <a href="#" className="flex items-center space-x-3">
+          <a href="/technical-test" className="flex items-center space-x-3">
             <img src={logo} className="h-8" alt="Logo" />
             <span className="text-lg font-semibold text-gray-800">PT X</span>
           </a>
           <ul className="flex flex-wrap justify-center sm:justify-end space-x-3 text-gray-600 text-sm mt-3 sm:mt-0">
-            <li><a href="/me" className="hover:underline text-black">About Me</a></li>
+            <li><a href="/technical-test/me" className="hover:underline text-black">About Me</a></li>
           </ul>
         </div>
         <div className="text-center text-gray-500 text-xs sm:text-sm mt-2">

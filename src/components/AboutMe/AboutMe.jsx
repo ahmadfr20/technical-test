@@ -26,7 +26,7 @@ const AboutMe = () => {
         </div>
         <div className="mt-6">
           <a 
-            href="/" 
+            href="/technical-test/" 
             className="px-4 py-2 bg-black text-white rounded-lg transition duration-300"
           >
             Kembali ke Homepage
