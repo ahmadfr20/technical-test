@@ -1,5 +1,5 @@
 ## Technical Test 2
-Aplikasi ini digunakan untuk manajemen data finance agar mempermudah kinerja tim finance.
+Aplikasi ini digunakan untuk manajemen data finance agar mempermudah kinerja tim finance dan bisa diakses pada [URL](https://ahmadfr20.github.io/technical-test/).
 
 ## Fitur
 Fitur utama yang terdapat pada aplikasi ini diantaranya adalah:
@@ -17,10 +17,12 @@ Fitur utama yang terdapat pada aplikasi ini diantaranya adalah:
 ## Instalasi
 
 Pastikan [Node](https://nodejs.org/id) versi terbaru sudah terinstal dalam perangkat.
-```npm install
+```bash
+npm install
 ```
 
 ## Menjalankan kode pada perangkat Local
-```npm run dev
+```bash
+npm run dev
 ```
 
