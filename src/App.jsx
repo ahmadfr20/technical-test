@@ -5,7 +5,7 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import Homepage from "./components/Homepage/Homepage";
 import AboutMe from "./components/AboutMe/AboutMe";
 
-import ProtectedRoute from "./ProtectedRoute";
+// import ProtectedRoute from "./ProtectedRoute";
 
 
 
@@ -17,10 +17,8 @@ function App() {
         <Route path="/technical-test/login" element={<Login />} />
         <Route path="/technical-test/" element={<Homepage />} />
         <Route path="/technical-test/me" element={<AboutMe />} />
+        <Route path="/technical-test/dashboard" element={<Dashboard />} />
 
-        <Route element={<ProtectedRoute />}>
-          <Route path="/technical-test/dashboard" element={<Dashboard />} />
-        </Route>
       </Routes>
 
     </div>
