@@ -15,7 +15,7 @@ const Login = () => {
     
     try {
       await loginUser(username, password);
-      navigate("/technical-test/dashboard"); // Reload halaman setelah navigasi
+      navigate ("/technical-test/dashboard")
     } catch (err) {
       setError("Invalid username or password.");
     }
