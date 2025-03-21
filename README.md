@@ -13,6 +13,8 @@ Fitur utama yang terdapat pada aplikasi ini diantaranya adalah:
 ## Teknologi
 - ReactJS
 - TailwindCSS
+- Axios
+- vite
 
 ## Instalasi
 

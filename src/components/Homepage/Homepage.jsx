@@ -33,7 +33,7 @@ const Homepage = () => {
           <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
           <button
             onClick={handleAuthAction}
-            className="inline-flex items-center justify-center w-sm h-12 px-6 font-blueberry tracking-wide text-white transition duration-200 rounded shadow-md bg-black hover:bg-gray-700 focus:shadow-outline focus:outline-none"
+            className="inline-flex items-center justify-center xl:w-sm sm:w-xs h-12 px-6 font-blueberry tracking-wide text-white transition duration-200 rounded shadow-md bg-black hover:bg-gray-700 focus:shadow-outline focus:outline-none"
             >
             {isLoggedIn ? "Ke Dashboard" : "Get Started"}
             </button>
