@@ -25,7 +25,7 @@ export const Navbar = () => {
   return (
     <div className="container fixed max-w-full backdrop-blur-md bg-white z-10 px-4 py-5 bg-opacity-80 mx-auto shadow-sm">
       <div className="xl:mx-28 lg:mx-20 md:mx-auto flex justify-between">
-        <a href="/technical-test/" aria-label="PT X" title="PT X" className="inline-flex items-center">
+        <a onClick={()=>navigate("/technical-test")} aria-label="PT X" title="PT X" className="inline-flex items-center">
           <img src={logo} className="mr-3 h-8 rounded-full" alt="Logo" />
           <span className="ml-2 text-2xl font-blueberry tracking-wide text-gray-800">PT X</span>
         </a>

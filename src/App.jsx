@@ -18,7 +18,6 @@ function App() {
         <Route path="/technical-test/" element={<Homepage />} />
         <Route path="/technical-test/me" element={<AboutMe />} />
         <Route path="/technical-test/dashboard" element={<Dashboard />} />
-
       </Routes>
 
     </div>

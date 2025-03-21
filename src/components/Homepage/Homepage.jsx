@@ -28,7 +28,7 @@ const Homepage = () => {
             PT X Finance Management System
           </h1>
           <p className="text-gray-600 text-sm sm:text-base md:text-lg mb-6">
-            Selamat datang di Finance Management System, aplikasi ini digunakan untuk memenuhi kebutuhan Technical Test 2 PT Tricada Intronik.
+            Selamat datang di Finance Management System, aplikasi ini digunakan untuk memenuhi kebutuhan manajemen finansial pada PT X.
           </p>
           <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
           <button
@@ -47,12 +47,12 @@ const Homepage = () => {
       {/* Footer */}
       <footer className="bg-gray-100 py-3">
         <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between px-6 lg:px-20">
-          <a href="/technical-test" className="flex items-center space-x-3">
+          <a onClick={()=>navigate("/technical-test")} className="flex items-center space-x-3">
             <img src={logo} className="h-8" alt="Logo" />
             <span className="text-lg font-semibold text-gray-800">PT X</span>
           </a>
           <ul className="flex flex-wrap justify-center sm:justify-end space-x-3 text-gray-600 text-sm mt-3 sm:mt-0">
-            <li><a href="/technical-test/me" className="hover:underline text-black">About Me</a></li>
+            <li><a onClick={()=>navigate("/technical-test/me")} className="hover:underline text-black">About Me</a></li>
           </ul>
         </div>
         <div className="text-center text-gray-500 text-xs sm:text-sm mt-2">

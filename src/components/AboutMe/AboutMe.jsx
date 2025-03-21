@@ -1,7 +1,10 @@
 import React from "react";
 import profilePic from "../../assets/profil.png";
 
+import { useNavigate } from "react-router-dom";
+
 const AboutMe = () => {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 px-6 py-12">
       <div className="bg-white shadow-lg rounded-lg p-8 max-w-lg text-center">
@@ -25,12 +28,7 @@ const AboutMe = () => {
           <p><strong className="text-black">Hobi:</strong> Ngoding, membaca, bermain game, dan eksplorasi teknologi baru</p>
         </div>
         <div className="mt-6">
-          <a 
-            href="/technical-test/" 
-            className="px-4 py-2 bg-black text-white rounded-lg transition duration-300"
-          >
-            Kembali ke Homepage
-          </a>
+        <a onClick={()=>navigate("/technical-test")} className="hover:underline text-black">Kembali ke homepage</a>
         </div>
       </div>
     </div>
