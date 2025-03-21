@@ -15,7 +15,7 @@ const Login = () => {
     
     try {
       await loginUser(username, password);
-      window.location.href = "/technical-test/dashboard"; // Reload halaman setelah navigasi
+      navigate("/technical-test/dashboard"); // Reload halaman setelah navigasi
     } catch (err) {
       setError("Invalid username or password.");
     }
